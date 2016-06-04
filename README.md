@@ -1,11 +1,7 @@
 HAMMING CODE - JAVASCRIPT MOBILE HYBRID
 =====================
 
-#hammingcode
-#codehamming
-#javascript
-#aplicativo
-#mobile
+
 
 This code has created for a data communication course.
 If you need algorithm of hamming in javascript you can copy the code.
@@ -30,6 +26,4 @@ Then run:
 $ ionic serve
 ```
 
-#PedroAyres
-#2016
-#University
+#PedroAyres #2016 #University #hammingcode #codehamming #javascript #aplicativo #mobile
