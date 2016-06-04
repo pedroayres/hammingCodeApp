@@ -26,4 +26,4 @@ Then run:
 $ ionic serve
 ```
 
-#PedroAyres #2016 #University #hammingcode #codehamming #javascript #aplicativo #mobile
+#PedroAyres 2016 university hammingcode codehamming javascript app mobile
