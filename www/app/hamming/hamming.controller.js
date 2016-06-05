@@ -8,7 +8,7 @@
         var self = this;
         self.getBitValidated = getBitValidated;
         self.bitValidated = '';
-        self.inputBit = '1010';
+        self.inputBit = '';
 
         function getBitValidated() {
             self.showBitChecked = true;
