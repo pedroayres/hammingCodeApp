@@ -1,0 +1,19 @@
+<ion-view view-title="Código de Hamming">
+  <ion-content>
+    <div class="list list-inset">
+      <label class="item item-input">
+        <input type="text" placeholder="Digite o bit sem digito verificador" ng-model="hamming.inputBit">
+      </label>
+    </div>
+    <div class="padding" ng-if="hamming.showBitChecked">
+      <button class="button button-block button-outline button-balanced">
+        {{hamming.bitValidated}}
+      </button>
+    </div>
+    <div class="padding">
+      <button class="button button-block button-positive" ng-click="hamming.getBitValidated()">
+        Adicionar verificador
+      </button>
+    </div>
+  </ion-content>
+</ion-view>

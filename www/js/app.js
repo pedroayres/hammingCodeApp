@@ -33,13 +33,33 @@ angular
               templateUrl: 'app/menu/menu.html',
               controller: 'MenuCtrl'
           })
-          .state('app.hamming', {
-              url: '/hamming',
+          .state('app.hammingTransmission', {
+              url: '/hammingTransmission',
               views: {
                   'menuContent': {
-                      templateUrl: 'app/hamming/hamming.html',
+                      templateUrl: 'app/hamming/hamming-transmission.html',
                       controller: 'HammingCtrl',
                       controllerAs: 'hamming'
+                  }
+              }
+          })
+          .state('app.hammingVerify', {
+              url: '/hammingVerify',
+              views: {
+                  'menuContent': {
+                      templateUrl: 'app/hamming/hamming-verify.html',
+                      controller: 'HammingCtrl',
+                      controllerAs: 'hamming'
+                  }
+              }
+          })
+          .state('app.welcome', {
+              url: '/welcome',
+              views: {
+                  'menuContent': {
+                      templateUrl: 'app/welcome/welcome.html',
+                      controller: 'WelcomeCtrl',
+                      controllerAs: 'welcome'
                   }
               }
           })
@@ -60,5 +80,5 @@ angular
               }
           })
           // if none of the above states are matched, use this as the fallback
-      $urlRouterProvider.otherwise('/app/hamming');
+      $urlRouterProvider.otherwise('/app/welcome');
   });
